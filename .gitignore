@@ -1,0 +1,192 @@
+# ===================================
+# GESTOR SEGURO - .gitignore
+# ===================================
+
+# ⚠️ ARCHIVOS CRÍTICOS - NUNCA SUBIR
+# Bóvedas de contraseñas (contienen datos sensibles)
+vault.json
+*.json.tmp
+mi_boveda.json
+test.json
+velocidad.json
+
+# ===================================
+# Python
+# ===================================
+
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ===================================
+# IDEs y Editores
+# ===================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ===================================
+# Sistema Operativo
+# ===================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===================================
+# Logs y bases de datos temporales
+# ===================================
+
+*.log
+*.sql
+*.sqlite
+*.db
+
+# ===================================
+# Archivos temporales
+# ===================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# ===================================
+# Documentación generada
+# ===================================
+
+docs/_build/
+site/
+
+# ===================================
+# Otros
+# ===================================
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
